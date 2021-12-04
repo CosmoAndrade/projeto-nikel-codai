@@ -25,12 +25,14 @@
                         <p>Economize e atinja seus objetivos.</p>
 
                         <div class="text-center">
-                            <img src="./assets/images/pocket.png" class="img-fluid"  alt="img-pocket">
-                            <img src="./assets/images/coins.png" class="img-fluid d-none d-md-inline coins" alt="img-coins">
+                            <img src="./assets/images/pocket.png" class="img-fluid" alt="img-pocket">
+                            <img src="./assets/images/coins.png" class="img-fluid d-none d-md-inline coins"
+                                alt="img-coins">
                         </div>
 
                     </div>
-                </div> <!--Fim da col 1-->
+                </div>
+                <!--Fim da col 1-->
 
                 <div class="col  d-flex my-5  justify-content-center flex-column ">
                     <div class="container">
@@ -46,17 +48,19 @@
                             <div class="col">
                                 <form>
                                     <div class="mb-3">
-                                      <label for="exampleInputEmail1" class="form-label">Email</label>
-                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                      <div id="emailHelp" class="form-text">Utilize seu e-mail para realizar seu login.</div>
+                                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">Utilize seu e-mail para realizar seu
+                                            login.</div>
                                     </div>
                                     <div class="mb-3">
-                                      <label for="exampleInputPassword1" class="form-label">Senha</label>
-                                      <input type="password" class="form-control" id="exampleInputPassword1">
+                                        <label for="exampleInputPassword1" class="form-label">Senha</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
                                     </div>
                                     <div class="mb-3 form-check">
-                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                      <label class="form-check-label" for="exampleCheck1">Permanecer Logado.</label>
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Permanecer Logado.</label>
                                     </div>
                                     <button type="submit" class="btn button-login">Entrar</button>
                                 </form>
@@ -65,9 +69,10 @@
 
                         <div class="row">
                             <div class="col">
- <p class="text-center mt-2 form-text " data-bs-toggle="modal" data-bs-target="#exampleModal" >Ainda não tem conta? 
-                                    <span class="link-default">  Criar uma conta.</span>
-                                  
+                                <p class="text-center mt-2 form-text " data-bs-toggle="modal"
+                                    data-bs-target="#register-modal">Ainda não tem conta?
+                                    <span class="link-default"> Criar uma conta.</span>
+
                                 </p>
                             </div>
                         </div>
@@ -89,30 +94,48 @@
                         </div>
 
                     </div>
-                </div> <!--Fim da col 2-->
+                </div>
+                <!--Fim da col 2-->
             </div>
-        </div> <!--Fim container-->
+        </div>
+        <!--Fim container-->
 
-       
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Crie sua Conta</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="register-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Crie sua Conta</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <form id="create-form">
+                        <div class="modal-body">
+
+                            <div class="mb-3">
+                                <label for="email-create-input" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email-create-input"
+                                    aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Utilize seu e-mail para criar sua conta.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password-create-input" class="form-label">Senha</label>
+                                <input type="password" class="form-control" id="password-create-input">
+            <div id="emailHelp" class="form-text">Utilize uma senha fácil de lembrar .</div>
+                            </div>
+                           
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <button  style="border-radius: 10px;" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn button-default">Criar conta</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-        
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-          <button type="button" class="btn btn-primary">Criar conta</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
     </main>
 
