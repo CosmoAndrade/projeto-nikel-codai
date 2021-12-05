@@ -92,3 +92,7 @@ header{
     background-color: #fff;
     color: #4c79d3;
 }
+
+.logout{
+    min-width: 5rem !important;
+}
